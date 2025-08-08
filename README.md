@@ -18,15 +18,6 @@ Documentacion
 - [📁 SendMailService](./endpoints/SendMailService/) - Servicios SendMail
 - [📁 UtilitarioServices](./endpoints/UtilitarioServices/) - Servicios Utilitario
 
-### 🗄️ Stored Procedures
-- [📁 Facturación](./stored-procedures/facturacion/) - SPs de facturación
-- [📁 Pacientes](./stored-procedures/pacientes/) - SPs de pacientes
-- [📁 Usuarios](./stored-procedures/usuarios/) - SPs de usuarios y seguridad
-- [📁 Templates](./stored-procedures/templates/) - SPs de plantillas
-- [📁 Reportes](./stored-procedures/reportes/) - SPs de reportes
-
-## 📊 Estadísticas del Sistema
+## 📊 Estadísticas
 - **Total Endpoints:** [Número]
-- **Total Stored Procedures:** [Número]
-- **Integraciones Externas:** [Número]
 - **Última actualización:** [Fecha]
