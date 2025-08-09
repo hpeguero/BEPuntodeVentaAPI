@@ -9,8 +9,6 @@
 - [Códigos de Estado HTTP](#códigos-de-estado-http)
 - [Integraciones Externas](#integraciones-externas)
 - [Servicios Utilizados](#servicios-utilizados)
-- [Logging y Auditoría](#logging-y-auditoría)
-- [Consideraciones Especiales](#consideraciones-especiales)
 - [Referencias](#referencias)
 
 ## Endpoint
