@@ -180,57 +180,12 @@ En caso de error, se registra la excepción y se retorna `null`.
 - `EmailService` - Envío de notificaciones
 - `ExceptionService` - Manejo de excepciones
 
-## Logging y Auditoría
-- Registra todas las interacciones con APIs externas
-- Captura errores y excepciones con contexto completo
-- Incluye información de IP de usuario y User-Agent
-- Genera códigos únicos de seguimiento para cada operación
-
-> **📊 Monitoreo:** [Sistema de Logging](./monitoring/logging-system.md) | [Auditoría de APIs](./monitoring/api-audit.md)
-
-## Consideraciones Especiales
-- Las operaciones con SalesForce y obtención de fecha promesa se ejecutan de forma asíncrona
-- Manejo robusto de errores que no interrumpe el flujo principal
-- Decodificación automática de parámetros URL encoded
-- Procesamiento por lotes de múltiples entradas
-- Timeout de 30 segundos para llamadas externas
-
-> **⚙️ Configuración:** [Configuración del Sistema](./configuration/system-config.md) | [Mejores Prácticas](./best-practices.md)
-
 ---
 
 ## Referencias
 
 ### Documentación Relacionada
 - [🏠 **Inicio**](./README.md) - Documentación principal del proyecto
-- [🚀 **Guía de Inicio Rápido**](./quickstart.md) - Configuración inicial del proyecto
-- [📋 **Lista de APIs**](./api-index.md) - Índice completo de endpoints
-
-### APIs y Servicios
-- [⚡ **PowerI Integration**](./integrations/poweri-integration.md) - Guía completa de PowerI
-- [👨‍⚕️ **Doctor Management**](./doctor-management.md) - Sistema de gestión de doctores
-- [💼 **NCF Service**](./fiscal/ncf-complete-guide.md) - Guía completa de NCF
-- [📅 **Appointment System**](./appointments/) - Sistema completo de citas
-
-### Base de Datos y Modelos
-- [💾 **Database Schema**](./database/schema/) - Esquemas completos de BD
-- [📊 **Data Models**](./models/) - Modelos de datos del sistema
-- [🔍 **Stored Procedures**](./database/procedures/) - Documentación de SPs
-
-### Configuración y Deployment
-- [⚙️ **Configuration Guide**](./configuration/) - Guías de configuración
-- [🚀 **Deployment Guide**](./deployment/) - Guías de despliegue
-- [🔐 **Security Guide**](./security/) - Configuración de seguridad
-
-### Monitoreo y Troubleshooting
-- [📊 **Monitoring Setup**](./monitoring/) - Configuración de monitoreo
-- [🔧 **Troubleshooting**](./troubleshooting.md) - Solución de problemas comunes
-- [📈 **Performance Guide**](./performance/) - Optimización de rendimiento
-
-### Ejemplos y Tutoriales
-- [💡 **Code Examples**](./examples/) - Ejemplos de código
-- [📚 **Tutorials**](./tutorials/) - Tutoriales paso a paso
-- [❓ **FAQ**](./faq.md) - Preguntas frecuentes
 
 ---
 
