@@ -19,16 +19,14 @@ POST /EntradaAdd
 ```
 
 ## Descripción
-Procesa y registra una entrada médica con toda la información asociada incluyendo datos del paciente, facturas, pruebas de laboratorio, integración con sistemas externos (PowerI, NCF, SalesForce) y gestión de citas médicas.
-
-> **Ver también:** [Guía de Integración de APIs](./api-integration-guide.md) | [Documentación de Modelos de Datos](./data-models.md)
+Pendiente descripcion - crea registro de entrada...
 
 ## Parámetros de Entrada
 
 ### Body Parameters
 | Parámetro | Tipo | Descripción | Requerido |
 |-----------|------|-------------|-----------|
-| `entradas` | `string` | JSON serializado que contiene toda la información de las entradas médicas | ✅ |
+| `entradas` | `string` | JSON serializado que contiene toda la información para crear la entrada | ✅ |
 
 ### Estructura del JSON de Entrada (`entradas`)
 ```json
