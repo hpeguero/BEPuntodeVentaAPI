@@ -54,49 +54,6 @@ Pendiente descripcion - crea registro de entrada...
 
 > **📖 Referencias:** [Esquemas JSON](./schemas/entrada-request.json) | [Validación de Datos](./validation-rules.md)
 
-## Funcionalidades Principales
-
-### 1. Procesamiento de Entradas
-- Decodifica parámetros URL encoded
-- Convierte JSON a XML para procesamiento en base de datos  
-- Ejecuta stored procedure `Facturacion.UspEntradaAdd`
-
-> **📋 Ver:** [Documentación de Stored Procedures](./database/stored-procedures.md#uspentradaadd)
-
-### 2. Link de Resultados
-- Crea enlaces entre facturas y resultados de laboratorio
-- Procesa códigos de seguimiento
-- Maneja información de NCF (Número de Comprobante Fiscal)
-
-> **🔗 Relacionado:** [Servicio de Resultados](./services/resultados-service.md) | [Gestión de Enlaces](./linking-system.md)
-
-### 3. Integración con NCF
-- Obtiene códigos de seguridad y firmas
-- Gestiona e-NCF y NCF tradicionales  
-- Actualiza información fiscal en facturas
-
-> **💼 Documentación:** [API de NCF](./integrations/ncf-service.md) | [Comprobantes Fiscales](./fiscal/ncf-guide.md)
-
-### 4. Integración con PowerI (Sistema de Laboratorio)
-- Envía información de laboratorios para procesamiento
-- Obtiene fechas promesa de pruebas
-- Maneja timeouts y errores de conexión
-
-> **⚡ PowerI:** [API de PowerI](./integrations/poweri-api.md) | [Configuración de Laboratorio](./lab-system/poweri-setup.md)
-
-### 5. Gestión de Doctores (SalesForce)
-- Valida y crea doctores temporales
-- Envía notificaciones por email
-- Integra con sistema SalesForce para doctores preliminares
-
-> **👨‍⚕️ SalesForce:** [Integración SalesForce](./integrations/salesforce-integration.md) | [Gestión de Doctores](./doctor-management.md)
-
-### 6. Procesamiento de Citas
-- Registra citas médicas asociadas
-- Ejecuta stored procedure `UspCitaAddUpd`
-
-> **📅 Citas:** [Sistema de Citas](./appointments/appointment-system.md) | [API de Citas](./api/appointments-api.md)
-
 ## Respuesta
 
 ### Respuesta Exitosa
