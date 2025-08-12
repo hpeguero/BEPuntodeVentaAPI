@@ -140,7 +140,3 @@ En caso de error, se registra la excepción y se retorna `null`.
 
 ### Documentación Relacionada
 - [🏠 **Inicio**](./README.md) - Documentación principal del proyecto
-
----
-
-> **📞 Soporte:** Si necesitas ayuda adicional, consulta la [Guía de Soporte](./support.md) o contacta al equipo de desarrollo.
