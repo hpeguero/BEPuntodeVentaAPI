@@ -4,7 +4,6 @@
 - [Endpoint](#endpoint)
 - [Descripción](#descripción)
 - [Parámetros de Entrada](#parámetros-de-entrada)
-- [Funcionalidades Principales](#funcionalidades-principales)
 - [Respuesta](#respuesta)
 - [Códigos de Estado HTTP](#códigos-de-estado-http)
 - [Integraciones Externas](#integraciones-externas)
